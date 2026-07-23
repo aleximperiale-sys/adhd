@@ -37,4 +37,4 @@ Each skill folder contains:
 
 ## License
 
-MIT, see [LICENSE](LICENSE). All content in this repo is original.
+[MIT](LICENSE) © 2026 Alex Imperiale. All content in this repo is original.
