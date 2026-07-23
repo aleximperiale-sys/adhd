@@ -11,22 +11,22 @@ triggers:
 
 # session-resume
 
-Rebuild working context automatically instead of relying on the developer to hold it across a gap. Time away from a task (overnight, a meeting, a context switch) is when ADHD working memory loses the thread fastest — this skill treats that as the default case, not an edge case.
+Rebuild working context automatically instead of relying on the developer to hold it across a gap. Time away from a task (overnight, a meeting, a context switch) is when ADHD working memory loses the thread fastest, this skill treats that as the default case, not an edge case.
 
 ## What to reconstruct
 
-- **Uncommitted changes**: `git status`/`git diff` — what's mid-edit right now.
-- **Recent history**: last few commits on the current branch — what actually landed vs. what's still in flight.
+- **Uncommitted changes**: `git status`/`git diff`, what's mid-edit right now.
+- **Recent history**: last few commits on the current branch, what actually landed vs. what's still in flight.
 - **Open todos**: any in-progress task list, whether from a todo tool or a plan/checklist left in the conversation.
-- **Last known intent**: the most recent stated goal, not just the most recent file touched — a file can be open because it was a detour, not the actual objective.
+- **Last known intent**: the most recent stated goal, not just the most recent file touched, a file can be open because it was a detour, not the actual objective.
 
 ## Output shape
 
 Keep it to one short block, in this order:
-1. **Goal** — the one-line objective as last stated.
-2. **State** — what's done, in one line ("3 of 5 steps done").
-3. **In-flight** — uncommitted changes or an unfinished edit, named specifically.
-4. **Next action** — the single next concrete step, not a menu of options.
+1. **Goal**, the one-line objective as last stated.
+2. **State**, what's done, in one line ("3 of 5 steps done").
+3. **In-flight**, uncommitted changes or an unfinished edit, named specifically.
+4. **Next action**, the single next concrete step, not a menu of options.
 
 Skip any section that's empty rather than padding it out. If the reconstructed goal conflicts with what the files suggest (e.g. an open todo says one thing, the diff suggests another), surface the mismatch explicitly instead of picking one silently.
 

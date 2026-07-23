@@ -1,6 +1,6 @@
 ---
 name: decision-log
-description: Immediately captures small side-decisions, tangential ideas, and deferred TODOs into a running log the moment they come up, instead of relying on working memory to hold them until later. TRIGGER whenever a decision is made in passing, a tangent/idea surfaces that isn't the current task, or the user says "remind me to", "note that", "don't let me forget". DO NOT TRIGGER for the main decision being actively worked on right now — this is for things that would otherwise be dropped.
+description: Immediately captures small side-decisions, tangential ideas, and deferred TODOs into a running log the moment they come up, instead of relying on working memory to hold them until later. TRIGGER whenever a decision is made in passing, a tangent/idea surfaces that isn't the current task, or the user says "remind me to", "note that", "don't let me forget". DO NOT TRIGGER for the main decision being actively worked on right now, this is for things that would otherwise be dropped.
 triggers:
   - "note that"
   - "remind me to"
@@ -25,16 +25,16 @@ Working memory drops side-thoughts the moment attention moves elsewhere. This sk
 Append a single line per item, as it happens, in this shape:
 
 ```
-- [decision|todo|tangent|question] <one-line description> — <why it matters, if not obvious>
+- [decision|todo|tangent|question] <one-line description>, <why it matters, if not obvious>
 ```
 
-Log it in whatever the project already uses for this (an existing TODO file, a todo tool, a tracked markdown file) — don't invent a new location if one exists. If none exists, propose creating a single `DECISIONS.md` or equivalent rather than scattering notes across comments.
+Log it in whatever the project already uses for this (an existing TODO file, a todo tool, a tracked markdown file), don't invent a new location if one exists. If none exists, propose creating a single `DECISIONS.md` or equivalent rather than scattering notes across comments.
 
 ## Rules
 
-- **Log at the moment it happens**, not at the end of the session from memory — end-of-session recall is exactly the failure mode this exists to avoid.
+- **Log at the moment it happens**, not at the end of the session from memory, end-of-session recall is exactly the failure mode this exists to avoid.
 - **One line, no essay.** The log is a pointer to revisit, not the full resolution.
-- **Surface the log periodically**, not just on request — mention unresolved items when they become relevant again, and review the list before ending a session.
+- **Surface the log periodically**, not just on request, mention unresolved items when they become relevant again, and review the list before ending a session.
 - **Close items out.** When a logged item gets resolved, remove or check it off rather than leaving a growing pile of stale notes.
 
 ## Anti-patterns to avoid

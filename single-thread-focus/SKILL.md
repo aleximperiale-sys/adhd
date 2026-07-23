@@ -10,7 +10,7 @@ triggers:
 
 # single-thread-focus
 
-Splitting attention across several open threads multiplies the working-memory cost of every one of them — this skill keeps exactly one thread active and everything else visibly parked, rather than letting threads silently interleave.
+Splitting attention across several open threads multiplies the working-memory cost of every one of them, this skill keeps exactly one thread active and everything else visibly parked, rather than letting threads silently interleave.
 
 ## Detect fragmentation
 
@@ -23,15 +23,15 @@ Treat any of these as a signal:
 
 1. **Name every open thread** currently in flight, in one line each.
 2. **Pick one as active.** Ask the user if it isn't obvious which one matters most right now.
-3. **Park the rest explicitly** — state what's paused and what state it's in, so resuming later doesn't require reconstruction (pairs with `session-resume`).
+3. **Park the rest explicitly**, state what's paused and what state it's in, so resuming later doesn't require reconstruction (pairs with `session-resume`).
 4. **Finish or explicitly re-pause the active thread before switching.** Don't let a second thread quietly become active while the first is still nominally "in progress."
 
 ## Output shape
 
 ```
 Active: <thread>
-Parked: <thread> — <state it's in>
-Parked: <thread> — <state it's in>
+Parked: <thread>, <state it's in>
+Parked: <thread>, <state it's in>
 ```
 
 Keep this visible at natural checkpoints (after finishing a step, before starting something new) so the current single thread is never ambiguous.

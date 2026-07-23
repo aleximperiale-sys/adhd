@@ -11,7 +11,7 @@ triggers:
 
 # scope-guard
 
-Rabbit holes are easy to fall into and hard to notice from inside — this skill's job is to be the outside check that notices for you.
+Rabbit holes are easy to fall into and hard to notice from inside, this skill's job is to be the outside check that notices for you.
 
 ## Detect drift
 
@@ -24,9 +24,9 @@ Treat any of these as a scope-drift signal:
 ## What to do when drift is detected
 
 1. **Name it plainly**: state what the original task was and what's now being touched instead, in one line each.
-2. **Don't auto-decide.** Ask explicitly: finish the original task first, or consciously switch to the new one? Both are valid — the point is making it a decision instead of a drift.
+2. **Don't auto-decide.** Ask explicitly: finish the original task first, or consciously switch to the new one? Both are valid, the point is making it a decision instead of a drift.
 3. **Park it, don't drop it.** If the detour is worth doing later, log it (pair with `decision-log`) rather than either abandoning the thought or chasing it immediately.
-4. **Resume at the exact point of drift**, not from scratch — restate the last completed step of the original task so nothing already done gets redone or re-explained.
+4. **Resume at the exact point of drift**, not from scratch, restate the last completed step of the original task so nothing already done gets redone or re-explained.
 
 ## Anti-patterns to avoid
 
