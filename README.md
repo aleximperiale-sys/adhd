@@ -23,7 +23,7 @@ Each skill folder contains:
 
 | Tool | Usage |
 |---|---|
-| Claude Code, Codex, Cursor, OpenCode, [more](https://agentskills.io/) | `npx skills add aleximperiale-sys/adhd` |
+| Claude Code, Codex, Cursor, OpenCode, [more](https://agentskills.io/) | `npx skills add Alex Imperiale/adhd` |
 | Manual | Clone this repo and copy the skill folder(s) you want into your project's `.claude/skills/` (or equivalent) directory |
 
 ## Skills
